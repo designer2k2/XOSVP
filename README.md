@@ -1,5 +1,9 @@
 # Xbox Open Source Video Project
 ![Finished XOSVP Image](/images/enclosure.jpg)
+
+![Assembled XOSVP Image](/images/assembly.jpg)
+
+
 XOSVP is an open-source alternative to the Microsoft HD AV Pack. The XOSVP strives to produce the absolute best analog video quality out of your original Xbox.
 
 ## Features
