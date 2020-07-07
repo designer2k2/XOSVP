@@ -68,3 +68,11 @@ This splice must follow the following pinout guide
 Each of the colored AVIP pins must be connected so that they match the following pinout of the VGA cable. The only exception is the `AVIP JMP 1` and `AVIP JMP 2` pins. These need to be jumped together on the top + bottom of the AVIP connector.
 
 ![VGA Pinout](/images/vga-pinout.png)
+
+## Changes
+
+The PCB is been modified to fit also alternative toslink adapters. In this case Cliff OTJ-8
+
+A label to identify the cable order is now in place (in case no color coded connectors are used)
+
+![PCB Layout](/images/layout_change.png )
