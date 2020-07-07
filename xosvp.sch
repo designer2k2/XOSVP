@@ -1,16 +1,15 @@
 EESchema Schematic File Version 4
-LIBS:xosvp-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "XOSVP"
+Date "2020-07-07"
+Rev "5"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "CERN OHL v1.2"
+Comment2 "Designed by Darren Thompson"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -36,12 +35,6 @@ F 3 "" H 5150 1450 60  0001 C CNN
 	1    5150 1450
 	0    1    1    0   
 $EndComp
-Text Notes 7650 7500 2    60   ~ 0
-XOSVP
-Text Notes 10650 7650 2    60   ~ 0
-5
-Text Notes 11200 6650 2    60   ~ 0
-Designed by Darren Thompson
 Text GLabel 4350 1100 0    60   Input ~ 0
 SPDIF
 Wire Wire Line
@@ -210,7 +203,7 @@ P 3900 4600
 F 0 "FILTER1" H 4100 6250 50  0000 C CNN
 F 1 "THS7316" H 4100 6350 50  0000 C CNN
 F 2 "xosvp:THS7316" H 3900 4950 50  0001 C CNN
-F 3 "" H 3900 4950 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ths7316.pdf" H 3900 4950 50  0001 C CNN
 	1    3900 4600
 	1    0    0    -1  
 $EndComp
@@ -570,6 +563,4 @@ Wire Wire Line
 	5400 950  5600 950 
 Wire Wire Line
 	5400 1950 5400 2050
-Text Notes 10600 7100 0    50   ~ 0
-CERN OHL v1.2
 $EndSCHEMATC

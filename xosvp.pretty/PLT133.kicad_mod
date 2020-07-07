@@ -1,4 +1,4 @@
-(module PLT133 (layer F.Cu) (tedit 5AE2A0EC)
+(module PLT133 (layer F.Cu) (tedit 5F04971D)
   (fp_text reference TOSLINK** (at 0 8.75) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -14,4 +14,6 @@
   (pad 3 thru_hole circle (at 2.54 4.68) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 4.68) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -2.54 4.68) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -2.8 -0.61) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 2.8 -0.61) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
 )
